@@ -20,5 +20,5 @@ setuptools.setup(
 	},
 	license = 'BSD 3-Clause License',
 	packages = find_packages(),
-	install_requires = ['json', 'openai', 'base64', 'pdf2image']
+	install_requires = ['openai', 'base64', 'pdf2image']
 	)
