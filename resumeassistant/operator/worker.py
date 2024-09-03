@@ -56,10 +56,49 @@ class ImageWorker:
 		return json.loads(response.choices[0].message.content)
 
 class TextWorker:
-	def __init__(self, client, model_id, sys_prompt=None, user_prompt=None):
+	def __init__(self, client, model_id, sys_prompt=None, user_prompt=None, json_format=False):
 		self.client = client
 		self.model_id = model_id
 		self.sys_prompt = sys_prompt
 		self.user_prompt = user_prompt
-
+		self.json_format = json_format
+	def __get_messages(self):
+		return [
+				{
+				"role": "system",
+				"content": [
+							{
+							"type": "text", 
+							"text": self.sys_prompt
+							}
+						]
+				},
+				{
+				"role": "user",
+				"content": [
+							{
+							"type": "text",
+							"text": self.user_prompt
+							}
+						]
+				}
+				]
+	def get_output(self, user_prompt=None):
+		if user_prompt:
+			self.user_prompt = user_prompt
+		if self.json_format:
+			response = self.client.chat.completions.create(
+				model = self.model_id,
+				response_format={"type": "json_object"},
+				messages=self.__get_messages(),
+				max_tokens =1500
+				)
+			return json.loads(response.choices[0].message.content)
+		else:
+			response = self.client.chat.completions.create(
+				model = self.model_id,
+				messages=self.__get_messages(),
+				max_tokens =1500
+				)
+			return response.choices[0].message.content
 
