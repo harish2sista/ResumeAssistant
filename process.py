@@ -1,5 +1,6 @@
 # import module
 from pdf2image import convert_from_path
+from resumeassistant.Lib.operator.worker import ImageWorker
 
 def get_img(pdf_path):
       images = convert_from_path(pdf_path)
