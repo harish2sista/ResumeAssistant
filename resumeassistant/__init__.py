@@ -9,4 +9,4 @@ __author__ = 'Harish Sista'
 __all__ = ['data', 'utils', 'operator']
 
 
-from resumeassistant.Lib.operator import worker
+from resumeassistant.operator import worker
