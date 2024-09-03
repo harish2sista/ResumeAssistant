@@ -32,7 +32,7 @@ class ImageWorker:
 							},
 							{
 							"type": "image_url",
-							"text": {
+							"image_url": {
 									"url": f"data:image/jpeg;base64,{base64_image}"
 								}
 							}
