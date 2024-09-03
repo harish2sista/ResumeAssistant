@@ -1,3 +1,7 @@
+'''
+This is the code for parsing resumes in pdf format. 
+'''
+
 # import module
 from pdf2image import convert_from_path
 from resumeassistant.operator.worker import ImageWorker

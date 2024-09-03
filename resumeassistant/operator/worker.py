@@ -7,6 +7,7 @@ from openai import OpenAI
 __all__ = ['ImageWorker', 'TextWorker']
 
 class ImageWorker:
+	# This class prompts the LLM to parse resumes in jpeg format.  
 	def __init__(self, client, model_id, sys_prompt=None, user_prompt=None):
 		self.client = client
 		self.model_id = model_id
