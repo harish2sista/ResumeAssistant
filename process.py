@@ -4,6 +4,7 @@ This is the code for parsing resumes in pdf format.
 
 # import module
 from pdf2image import convert_from_path
+# ImageWorker takes in the path to jpg resume image and returns the contents of the resume in a json format. 
 from resumeassistant.operator.worker import ImageWorker
 from openai import OpenAI
 
