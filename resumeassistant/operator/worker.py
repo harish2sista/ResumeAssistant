@@ -12,7 +12,7 @@ class ImageWorker:
 		self.model_id = model_id
 		self.sys_prompt = sys_prompt
 		self.user_prompt = user_prompt
-	def __get_messages(self):
+	def __get_messages(self, base64_image):
 		return [
 				{
 				"role": "system",
@@ -29,16 +29,27 @@ class ImageWorker:
 							{
 							"type": "text",
 							"text": self.user_prompt
+							},
+							{
+							"type": "image_url",
+							"text": {
+									"url": f"data:image/jpeg;base64,{base64_image}"
+								}
 							}
 						]
 				}
 				]
+
+	def encode_image(self, image_path):
+		with open(image_path, "rb") as image_file:
+			return base64.b64encode(image_file.read()).decode('utf-8')
+
 	def get_output(self, image_path):
-		base64_image = encode_image(image_path)
+		base64_image = self.encode_image(image_path)
 		response = self.client.chat.completions.create(
-		model="gpt-4o-mini",
+		model=self.model_id,
 		response_format={ "type": "json_object" },
-		messages=self.__get_messages(),
+		messages=self.__get_messages(base64_image),
 		max_tokens=1500
 		)
 		return json.loads(response.choices[0].message.content)
