@@ -2,6 +2,7 @@
 **/__pycache__
 test.py
 **/.DS_Store
-Resumes_Datasets
+Resumes Datasets
 **/*.zip
 .DS_Store
+gpt_key.json
