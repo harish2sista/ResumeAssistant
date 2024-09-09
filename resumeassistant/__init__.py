@@ -10,3 +10,4 @@ __all__ = ['data', 'utils', 'operator']
 
 
 from resumeassistant.operator import worker
+from resumeassistant.data import candidate_record
