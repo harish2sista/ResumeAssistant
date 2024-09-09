@@ -6,19 +6,18 @@ from pdf2image import convert_from_path
 # ImageWorker takes in the path to jpg resume image and returns the contents of the resume in a json format. 
 from resumeassistant.operator.worker import ImageWorker
 from openai import OpenAI
-import json
+import jsonthis 
 
-def get_img(pdf_path):
+def get_img(pdf_path, img_path):
       # Method for converting pdf resumes to jpg images. 
       images = convert_from_path(pdf_path)
       print(type(images))
       for i in range(len(images)):
         
             # Save pages as images in the pdf
-          images[i].save('page'+ str(i) +'.jpg', 'JPEG')
+          images[i].save(img_path + str(i) +'.jpg', 'JPEG')
 
 
-# get_img('Harish_Resume_PhD.pdf')
 
 with open('gpt_key.json', 'r') as file:
       data = json.load(file)
