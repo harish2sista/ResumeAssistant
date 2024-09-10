@@ -11,4 +11,4 @@ pip install git+https://github.com/harish2sista/resumeassistant.git
 ```
 
 ## Example
-An example of implementation is provided in [process.py](https://github.com/harish2sista/resumeassistant/blob/main/process.py)
+An example of implementation is provided in the jupyter notebook [process.ipynb](https://github.com/harish2sista/resumeassistant/blob/main/process.ipynb)
