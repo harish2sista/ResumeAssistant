@@ -1,0 +1,47 @@
+Company Description
+It all started in sunny San Diego, California in 2004 when a visionary engineer, Fred Luddy, saw the potential to transform how we work. Fast forward to today — ServiceNow stands as a global market leader, bringing innovative AI-enhanced technology to over 8,100 customers, including 85% of the Fortune 500®. Our intelligent cloud-based platform seamlessly connects people, systems, and processes to empower organizations to find smarter, faster, and better ways to work. But this is just the beginning of our journey. Join us as we pursue our purpose to make the world work better for everyone.
+
+Job Description
+We’re not yesterday’s IT department, we're Digital Technology. The world around us keeps changing and so do we. We’re redefining what it means to be IT with a mindset centered on transformation, experience, AI-driven automation, innovation, and growth. We’re all about delivering delightful, secure customer and employee experiences that accelerate ServiceNow’s journey to become the defining enterprise software company of the 21st century. And we love co-creating, using, and highlighting our own products to do it. 
+
+Ultimately, we strive to make the world work better for our employees and customers—when you work in ServiceNow Digital Technology, you work for them. 
+
+We’re shaping the future of work by leveraging cutting-edge AI and Generative AI technologies. Our team is dedicated to transforming how work gets done by applying new techniques, tools, and data to solve problems that haven’t even been recognized yet.  We rapidly prototype AI-driven solutions, sharing use cases across the company to demonstrate their potential value. As a Machine Learning Engineer specializing in Transformational AI, you’ll help bring these prototypes to life through data preparation, coding, and integrations before handing them off to our implementation team.
+
+Responsibilities:
+
+AI Exploration: Research and experiment with the latest advancements in AI, AutoML, and Generative AI. Apply these technologies to automate POC model building.
+POC Data Set Creation: Collaborate with data scientists and use specialized tools to design, gather, and build high-quality datasets that support the rapid development of ML and GenAI POCs.
+Data Pipeline Development: Build efficient data pipelines for preparing and delivering datasets that enable quick iterations and experimentation in AI and GenAI projects.
+Rapid Prototyping: Quickly assemble ML/GenAI data sets, prototype AI solutions, and deliver POCs through tools like Gradio and Streamlit. incorporate data augmentation techniques and synthetic data generation processes. Use automated model evaluation frameworks.
+Automated Feature Engineering: Explore tools and methods for automated feature engineering techniques to accelerate the extraction, transformation, and selection of features, ensuring high-quality inputs for machine learning models. Explore how Generative AI models can assist with feature ideation, design, and coding, as well as with automating feature hypothesis testing.
+Collaboration & Innovation: Collaborate with cross-functional teams to develop innovative AI-driven solutions, ensuring that automated feature engineering and AutoML are integrated into core business processes. Foster innovation sprints and/or hackathons.
+Monitor AI Trends: Continuously research the latest advancements in AI, AutoML, automated feature engineering, and generative AI to ensure that our solutions remain at the cutting edge of technology.
+Qualifications
+To be successful in this role you have:
+
+Qualifications:
+
+Education: Bachelor’s or Master’s degree in Computer Science, Data Engineering, Machine Learning, or a related field. PhD is a plus.
+Experience with AI & GenAI: 1-3 years of experience working on machine learning or AI projects, with a focus on model feature set preparation.
+Proficiency in SQL and Python: Strong experience with both SQL and Python programming, with a focus on data engineering. Preference for experience with Snowflake.
+Data Engineering Expertise: Proven experience quickly building data pipelines, automating data workflows, and working with large datasets for ML/GenAI applications. Proficiency with Snowflake or similar platforms for large-scale data management and pipeline creation.
+Extra consideration for:
+
+AutoML: Familiarity with AutoML tools and automated feature engineering techniques to support rapid model development.
+
+AI in Snowflake: Experience using AI tools in Snowflake, like Cortex, for transforming data and/or feature engineering.
+
+GenAI Prompt Engineering: Experience in quickly developing GenAI prompts that achieve objectives. An understanding of hallucination risks and how to address them.
+
+Interactive Demos: Creation of interactive demos and/or model simulators that convey functionality, data input/output, and a glimpse of user experience.
+
+ 
+
+FD21
+
+#DTProducts
+
+For positions in the Bay Area, we offer a base pay of $151,900 - $258,100, plus equity (when applicable), variable/incentive compensation and benefits. Sales positions generally offer a competitive On Target Earnings (OTE) incentive compensation structure. Please note that the base pay shown is a guideline, and individual total compensation will vary based on factors such as qualifications, skill level, competencies and work location. We also offer health plans, including flexible spending accounts, a 401(k) Plan with company match, ESPP, matching donations, a flexible time away plan and family leave programs (subject to eligibility requirements). Compensation is based on the geographic location in which the role is located, and is subject to change based on work location.
+
+Not sure if you meet every qualification? We still encourage you to apply! We value inclusivity, welcoming candidates from diverse backgrounds, including non-traditional paths. Unique experiences enrich our team, and the willingness to dream big makes you an exceptional candidate!

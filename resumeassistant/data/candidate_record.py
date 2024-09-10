@@ -15,6 +15,9 @@ class Record:
 		self.add_projects = add_projects
 		self.add_achievements = add_achievements
 		self.add_certifications = add_certifications
+		self.add_knowledge = {}
+		self.__resume_workbench = None
+		self.__record = {}
 
 #------------------------data manipulation methods------------------------
 	def update_resume(self, key, val):
@@ -74,31 +77,73 @@ class Record:
 			total_certifications.append(self.add_certifications)
 		return total_certifications
 
+#------------------------process methods------------------------
 	def save(self, path):
-		output = {
-				"resuem": self.resume, 
-				"cv": self.cv, 
-				"add_skills": self.add_skills,
-				"add_work_experience": self.add_work_experience,
-				"add_education": self.add_education, 
-				"add_projects": self.add_projects,
-				"add_achievements": self.add_achievements,
-				"add_certifications": self.add_certifications
-				}
+		self.update_record()
 		with open(path, 'w') as f:
-			json.dump(output, f)
+			json.dump(self.__record, f)
 
 	def load(self, path):
 		with open(path, 'r') as f:
 			data = json.loads(f)
-		self.resume = data.resume
-		self.cv = data.cv
-		self.add_skills = data.add_skills
-		self.add_work_experience = data.add_work_experience
-		self.add_education = data.add_education
-		self.add_projects = data.add_projects
-		self.add_achievements = data.add_achievements
-		self.add_certifications = data.add_certifications
+		self.__record = data
+		self.resume = data["resume"]
+		self.cv = data["cv"]
+		self.add_skills = data["additional skills"]
+		self.add_work_experience = data["additional work experience"]
+		self.add_education = data["additional education"]
+		self.add_projects = data["additional projects"]
+		self.add_achievements = data["additional achievements"]
+		self.add_certifications = data["additional certifications"]
+		self.add_knowledge = data["additional knowledge"]
 
+	def push_resume(self):
+		self.resume = self.__resume_workbench
 
-#------------------------LLM prompting methods------------------------
+	def commit_resume(self, new_resume):
+		self.__resume_workbench = new_resume
+
+	def add_add_knowledge(self, add_knowledge):
+		if type(add_knowledge) == list:
+			self.add_knowledge.update({"keywords": add_knowledge})
+		else:
+			try:
+				self.add_knowledge.update(add_knowledge)
+			except:
+				raise Exception(f"Expected Dic, obtained {type(add_knowledge)}")
+
+	def update_record(self):
+		if self.__record == {}:
+			self.__record = {"resume": self.resume,
+							"cv": self.cv, 
+							"additional skills": self.add_skills, 
+							"additional work experience": self.add_work_experience, 
+							"additional education": self.add_education, 
+							"additional projects": self.add_projects, 
+							"additional achievements": self.add_achievements, 
+							"additional certifications": self.add_certifications, 
+							"additional knowledge": self.add_knowledge}
+		else:
+			if self.__record["resume"] != self.resume: 
+				self.__record["resume"] = self.resume
+			if self.__record["cv"] != self.cv:
+				self.__record["cv"] = self.cv 
+			if self.__record["additional skills"] != self.add_skills:
+				self.__record["additional skills"] = self.add_skills
+			if self.__record["additional work experience"] != self.add_work_experience:
+				self.__record["additional work experience"] = self.add_work_experience
+			if self.__record["additional education"] != self.add_education:
+				self.__record["additional education"] = self.add_education
+			if self.__record["additional projects"] != self.add_projects:
+				self.__record["additional projects"] = self.add_projects
+			if self.__record["additional achievements"] != self.add_achievements:
+				self.__record["additional achievements"] = self.add_achievements
+			if self.__record["additional certifications"] != self.add_certifications:
+				self.__record["additional certifications"] = self.add_certifications
+			if self.__record["additional knowledge"] != self.add_knowledge:
+				self.__record["additional knowledge"] = self.add_knowledge
+
+	def get_record(self):
+		self.update_record()
+		return self.__record
+
