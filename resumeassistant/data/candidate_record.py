@@ -103,7 +103,7 @@ class Record:
 	def commit_resume(self, new_resume):
 		self.__resume_workbench = new_resume
 
-	def add_add_knowledge(self, add_knowledge):
+	def add_knowledge(self, add_knowledge):
 		if type(add_knowledge) == list:
 			self.add_knowledge.update({"keywords": add_knowledge})
 		else:
@@ -146,4 +146,26 @@ class Record:
 	def get_record(self):
 		self.update_record()
 		return self.__record
+
+
+
+class QA_Knowledge:
+	def __init__(self, qa_id, key_questions):
+		self.qa_id = qa_id
+		self.key_questions = key_questions
+		self.keywords = [entry["keyword"] for entry in self.key_questions["keywords"]]
+		self.questions = [entry["question"] for entry in self.key_questions["keywords"]]
+		self.key_answers = [{
+							"id": self.qa_id,
+							"keywword": entry["keyword"],
+							"answer": None} for entry in self.key_questions["keywords"]]
+
+	def 
+
+
+	
+
+
+
+
 
