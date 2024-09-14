@@ -175,6 +175,12 @@ class QA_Knowledge:
 											} for entry in key_questions["keywords"]
 								})
 
+	def add_knowledge(self, key_knowledge):
+		for key in key_knowledge.keys():
+			if key_knowledge[key]['answer']:
+				if key in self.key_QA.keys():
+					self.key_QA[key] = key_knowledge[key]['answer']
+
 
 
 
