@@ -5,10 +5,10 @@ __all__ = ['Record']
 
 
 class Record:
-	def __init__(self, client=None, resume=None, cv=None, add_skills=None, add_work_experience=None, add_education=None, add_projects=None, add_achievements=None, add_certifications=None):
+	def __init__(self, client=None, resume=None, cl=None, add_skills=None, add_work_experience=None, add_education=None, add_projects=None, add_achievements=None, add_certifications=None):
 		self.client = client
 		self.resume = resume
-		self.cv = cv
+		self.cl = cl
 		self.add_skills = add_skills
 		self.add_work_experience = add_work_experience
 		self.add_education = add_education
@@ -88,7 +88,7 @@ class Record:
 			data = json.loads(f)
 		self.__record = data
 		self.resume = data["resume"]
-		self.cv = data["cv"]
+		self.cl = data["cl"]
 		self.add_skills = data["additional skills"]
 		self.add_work_experience = data["additional work experience"]
 		self.add_education = data["additional education"]
@@ -115,7 +115,7 @@ class Record:
 	def update_record(self):
 		if self.__record == {}:
 			self.__record = {"resume": self.resume,
-							"cv": self.cv, 
+							"cl": self.cl, 
 							"additional skills": self.add_skills, 
 							"additional work experience": self.add_work_experience, 
 							"additional education": self.add_education, 
@@ -126,8 +126,8 @@ class Record:
 		else:
 			if self.__record["resume"] != self.resume: 
 				self.__record["resume"] = self.resume
-			if self.__record["cv"] != self.cv:
-				self.__record["cv"] = self.cv 
+			if self.__record["cl"] != self.cl:
+				self.__record["cl"] = self.cl 
 			if self.__record["additional skills"] != self.add_skills:
 				self.__record["additional skills"] = self.add_skills
 			if self.__record["additional work experience"] != self.add_work_experience:
