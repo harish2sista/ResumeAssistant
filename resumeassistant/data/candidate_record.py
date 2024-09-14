@@ -154,13 +154,30 @@ class QA_Knowledge:
 		self.qa_id = qa_id
 		self.key_questions = key_questions
 		self.keywords = [entry["keyword"] for entry in self.key_questions["keywords"]]
-		self.questions = [entry["question"] for entry in self.key_questions["keywords"]]
-		self.key_answers = {entry["keyword"]: {
-												"id": self.qa_id,
-												"answer": None
-												} for enrty in self.key_questions["keywords"]} 
+		self.key_QA = {entry["keyword"]: {
+										"id": self.qa_id,
+										"question": entry["question"],
+										"answer": None
+										} for enrty in self.key_questions["keywords"]} 
 
-	 
+	def get_knowledge(self):
+		knowledge_dic = {}
+		for key in self.key_QA:
+			if self.key_QA[key]["answer"]:
+				knowledge_dic[key] = {"id": self.key_QA[key]["id"], "answer": self.key_QA[key]["answer"]}
+
+	def add_key_questions(self,qa_id, key_questions):
+		self.key_QA.update({
+							entry["keyword"]: {
+											"id": qa_id,
+											"question": entry["question"],
+											"answer": None
+											} for entry in key_questions["keywords"]
+								})
+
+
+
+
 
 
 	
