@@ -155,12 +155,12 @@ class QA_Knowledge:
 		self.key_questions = key_questions
 		self.keywords = [entry["keyword"] for entry in self.key_questions["keywords"]]
 		self.questions = [entry["question"] for entry in self.key_questions["keywords"]]
-		self.key_answers = [{
-							"id": self.qa_id,
-							"keywword": entry["keyword"],
-							"answer": None} for entry in self.key_questions["keywords"]]
+		self.key_answers = {entry["keyword"]: {
+												"id": self.qa_id,
+												"answer": None
+												} for enrty in self.key_questions["keywords"]} 
 
-	def 
+	 
 
 
 	
