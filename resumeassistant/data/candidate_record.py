@@ -158,7 +158,7 @@ class QA_Knowledge:
 										"id": self.qa_id,
 										"question": entry["question"],
 										"answer": None
-										} for enrty in self.key_questions["keywords"]} 
+										} for entry in self.key_questions["keywords"]} 
 
 	def get_knowledge(self):
 		knowledge_dic = {}
