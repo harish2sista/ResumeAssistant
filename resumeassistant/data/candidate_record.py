@@ -165,6 +165,7 @@ class QA_Knowledge:
 		for key in self.key_QA:
 			if self.key_QA[key]["answer"]:
 				knowledge_dic[key] = {"id": self.key_QA[key]["id"], "answer": self.key_QA[key]["answer"]}
+		return knowledge_dic
 
 	def add_key_questions(self,qa_id, key_questions):
 		self.key_QA.update({
