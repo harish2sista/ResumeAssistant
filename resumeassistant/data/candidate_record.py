@@ -1,7 +1,7 @@
 import re 
 import json
 
-__all__ = ['Record']
+__all__ = ['Record', 'QA_Knowledge']
 
 
 class Record:
