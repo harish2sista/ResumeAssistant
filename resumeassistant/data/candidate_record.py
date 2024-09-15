@@ -163,6 +163,7 @@ class QA_Knowledge:
 	def get_knowledge(self):
 		knowledge_dic = {}
 		for key in self.key_QA:
+			print(self.key_QA)
 			if self.key_QA[key]["answer"]:
 				knowledge_dic[key] = {"id": self.key_QA[key]["id"], "answer": self.key_QA[key]["answer"]}
 		return knowledge_dic
