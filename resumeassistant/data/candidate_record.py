@@ -150,7 +150,7 @@ class Record:
 
 #------------------------process methods------------------------
 
-    def screen_resume_CL(resume, job_description, candidate_info=None):
+    def screen_resume_CL(self, resume, job_description, candidate_info=None):
         ra_system_prompt = 'You are a resume and cover letter screener. Given the candidate information(#candidate_info) and the job description(#job_description), provide keywords from the job description where the resume and the cover letter fail to address the requirements. Provide the keywords with a question describing how the resume and the cover letter fail to meet this requirement. Present the output in the following JSON output format: \n\t{\"keywords\": [{"keyword": system keyword, "question": system keyword question}]}'
         
         if candidate_info:
@@ -161,7 +161,7 @@ class Record:
         system_insights = ra_text_worker.get_output()
         return system_insights
 
-    def generate_resume(job_description, candidate_info=None, sys_prompt=None):
+    def generate_resume(self, job_description, candidate_info=None, sys_prompt=None):
         if sys_prompt:
             ro_system_prompt=sys_prompt
         else:
@@ -175,7 +175,7 @@ class Record:
         new_resume = ro_text_worker.get_output()
         return new_resume
 
-    def generate_cl(job_description, candidate_info=None, sys_prompt=None):
+    def generate_cl(self, job_description, candidate_info=None, sys_prompt=None):
         if sys_prompt:
             cl_system_prompt = sys_prompt
         else:
