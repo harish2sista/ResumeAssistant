@@ -6,3 +6,4 @@ Resumes Datasets
 **/*.zip
 .DS_Store
 gpt_key.json
+Process.ipynb

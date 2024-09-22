@@ -20,5 +20,5 @@ setuptools.setup(
 	},
 	license = 'BSD 3-Clause License',
 	packages = find_packages(),
-	install_requires = ['openai', 'pdf2image']
+	install_requires = ['openai', 'pdf2image', 'poppler']
 	)

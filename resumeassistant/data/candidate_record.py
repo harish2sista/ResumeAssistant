@@ -150,7 +150,7 @@ class Record:
 
 #------------------------process methods------------------------
 
-    def screen_resume_CL(self, job_description, candidate_info=None):
+    def screen_resume_CL(self,\job_description, candidate_info=None):
         ra_system_prompt = 'You are a resume and cover letter screener. Given the candidate information(#candidate_info) and the job description(#job_description), provide keywords from the job description where the resume and the cover letter fail to address the requirements. Provide the keywords with a question describing how the resume and the cover letter fail to meet this requirement. Present the output in the following JSON output format: \n\t{\"keywords\": [{"keyword": system keyword, "question": system keyword question}]}'
         
         if candidate_info:

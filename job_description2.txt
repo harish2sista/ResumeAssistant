@@ -1,57 +1,35 @@
-Language AI Researcher - Generative AI Applications - Intern at wover.ai
-About wover.ai
+You know the moment. It’s the first notes of that song you love, the intro to your favorite movie, or simply the sound of someone you love saying “hello.” It’s in these moments that sound matters most.  
 
-Our contextually aware AI empowers employees to be more productive and focused on what really drives your business forward. Applying the latest in generative AI models, wover.ai supercharges your critical data, processes, and decision-making frameworks into seamless automated interactions, leaving your employees to be hyper focused on what matters and less on what can be automated.
+At Bose, we believe sound is the most powerful force on earth. We’ve dedicated ourselves to improving it for nearly 60 years. And we’re passionate down to our bones about making whatever you’re listening to a little more magical.  
 
-We are on the lookout for AI superstars to contribute to the development of wover.ai’s innovative AI solutions that redefine how we work and get $#!+ done.
+The engineering team at Bose is a thriving, passionate, deeply skilled team of professionals from a broad range of disciplines and experiences, who share a common goal—to create products that provide transformative sound experiences.
 
-Interested? Come work with us.
+Job Description
+THE PROGRAM
 
-About your role
+We're looking for students to join our Co-Op Program who are obsessively curious about 'what's next'. You'll get hands on experience with our products and learn from the best of the best in the business. You will immerse yourself into Bose for 6 months and get the opportunity to grow the skills your learned in the classroom with hands on work experience. By the time you end your time with us, you will have been given the opportunity to truly make a real impact in the future of Bose and your career!
 
-We seek Pioneer’s, so if you are the take a walk in the woods type or have a healthy appetite for operating at the edge of possible and happen to be an AI Researcher interested in Domain Specific Models (DSM’s) and injecting contextuality into AI models, we want to hear from you.
+Opportunities don't stop at your day-to-day work. While you're getting an in depth look at your area of expertise, we'll expose you to other areas of the company. Our Co-Ops are given the opportunity to connect with senior leadership across the business to understand different perspectives at Bose. You'll network with other Co-Ops and colleagues to grow your network for the future! 
 
-We are seeking a highly capable and curious Applied Research Scientist (ARS) to join our Research team who are laser focused on building the context-aware, domain smarts AI platform that is empowering employees to reach their highest aspirations.
+Timeframe - January-June 2025
 
-As a wover.ai Applied Research Scientist, you will be responsible for developing and implementing cutting-edge solutions that leverage the latest in generative AI, ML, and that inject contextuality into NLP technologies.
+THE ROLE 
 
-You will collaborate with a multidisciplinary team of researchers, engineers, and data scientists to explore and implement novel techniques that enable NLP models to comprehend and generate contextually relevant responses. This role requires a strong background in NLP, AI, and ML, combined with a passion for pushing the boundaries of language understanding and generation.
+The goal of our team is to develop novel AI-powered audio processing algorithms. The twist is that our algorithms must run in real-time, on physical devices, for applications such as voice pickup, hearing augmentation and ones we haven't even thought of yet. As part of the team, you will work with experts in machine learning (ML), digital signal processing (DSP), software engineering and psychoacoustics to prototype and implement new algorithms.
 
-Working closely with cross-functional teams to understand business requirements, available data, and translate them into experiments, build the architecture and train the showcase models. You will work closely with Full Stack Engineers to expose the models as APIs and usable software applications. This is a highly technical Applied Research role that requires expertise in Large Language Models (LLMs), and all data pipeline tasks.
+Bose has a strong history of combining creative thinking with cutting-edge technology in the audio domain. We are looking for candidates passionate about machine learning and audio to help us shape the next chapter in the future of Bose!
 
-You will get to
 
-〉 Conduct research and experimentation to develop and enhance context-aware LLMs
-〉 Collaborate with researchers, data scientists, and engineers to define and implement research projects and initiatives
-〉 Investigate and propose novel approaches for capturing and utilizing contextual information in language models
-〉 Develop and train deep learning models for language understanding, generation, and context extraction
-〉 Design and implement data preprocessing pipelines to curate and annotate contextual datasets
-〉 Evaluate and benchmark model performance using appropriate metrics and design experiments to assess context-awareness effectiveness
-〉 Stay up to date with the latest research advancements in NLP, ML, and LLMs
-〉 Work closely with Software Engineers (SWEs) to integrate research findings into production systems
-〉 Collaborate with cross-functional teams to understand industry-specific requirements and develop context-aware LLMs to inform DSM’s
-〉 Document research findings, methodologies, and codebase to share knowledge and contribute to technical documentation
-〉 Optimize and fine-tune AI models for improved accuracy, performance, and scalability
+Responsibilities:
+- The majority of your time will be devoted to prototyping, implementing and evaluating ML algorithms, curating and developing internal resources, and regularly presenting your findings. 
+- You will integrate your novel solutions into new and existing systems and platforms to deliver new proofs of concept. 
+- You will be able to contribute to projects, which will be shipped to Bose customers, apply for patents, or submit papers to top-tier AI and signal processing conferences (e.g., NeurIPS, ICASSP, Interspeech, etc.).
+ 
 
-You will have
+Requirements:
 
-〉 Master's or Ph.D. degree in Computer Science, Electrical Engineering, or a related field with a focus on NLP, AI, and ML
-〉 Strong theoretical and practical knowledge of NLP techniques, including language modeling, sentiment analysis, and named entity recognition
-〉 Proven experience in developing and training large-scale language models (e.g., GPT, BERT, Transformer).
-〉 Proficiency in deep learning frameworks such as TensorFlow or PyTorch
-〉 Strong programming skills in Python and familiarity with Software Engineering best practices
-〉 Experience with data preprocessing, data cleaning, and dataset curation for training machine learning models
-〉 Solid understanding of machine learning algorithms and statistical methods
-〉 Demonstrated track record of publications or contributions to the field of NLP, AI, and ML
-〉 Experience with advanced techniques such as transfer learning, self-supervised learning, or reinforcement learning
-〉 Strong problem-solving skills and the ability to analyze complex systems and architectures with the ability to think critically and creatively
-〉 Demonstrated ability to learn new technologies and adapt quickly to evolving project requirements
-〉 Strong communication skills, both written and verbal, to effectively convey complex concepts and research findings
-〉 Ability to work independently as well as collaboratively in a fast-paced research and development environment
-
-Bonus Points
-
-〉 Demonstrable experience in Content Moderation, Text Classification, Semantic Search, User Intent Recognition, Text Generation, Entity Extraction, Text Summarization, Chat
-〉 Experience in developing context-aware systems, recommendation engines, or personalized user experiences using NLP, AI, and ML techniques
-〉 Demonstrated track record of publications or contributions to the field of NLP or machine learning
-〉 Knowledge of domain-specific contextual understanding, such as finance, healthcare, or legal
+- Currently pursuing or recently finished (<6 months) a graduate-level degree in ML, Computer Science, Music Technology or a related field.
+- Expertise in applied audio ML (TensorFlow and/or PyTorch, TFLite and/or ONNX is a plus) and audio DSP (Python, Matlab and/or C/C++).
+- Hands-on experience in at least one of the following research topics: Audio source separation, Speech enhancement, Microphone array signal processing, TinyML, Generative audio modeling.
+- Familiarity with methods for spatial sound synthesis and/or room acoustics simulation/analysis is a plus.
+- Strong communication skills. You will be presenting your work to a large interdisciplinary community.
