@@ -1,35 +1,39 @@
-You know the moment. It’s the first notes of that song you love, the intro to your favorite movie, or simply the sound of someone you love saying “hello.” It’s in these moments that sound matters most.  
+Description
+Do you want to be part of the core team building truly AI-native helpful experiences across the consumer space? Do you want to be at the cutting edge of what is next in the AI space but apply it to something of true value in the real world? At Verneek, we are on a mission to build the most helpful AI that augments the knowledge of anyone, anywhere, at any time! As opposed to the mainstream, we believe that the way to bring domain-general AI to the masses is to apply it one domain at a time, through AIs with deep domain expertise. We were on this journey before it got the hottest thing on the face of the planet! Come join some OGs in this so-called "generative AI" space and invent what is yet to be the future!
 
-At Bose, we believe sound is the most powerful force on earth. We’ve dedicated ourselves to improving it for nearly 60 years. And we’re passionate down to our bones about making whatever you’re listening to a little more magical.  
+If you are craving to learn something new every day while working at the cutting edge of AI, Verneek could be a perfect opportunity for you: a deep-tech AI startup, where you'd get to learn, innovate, and leave your mark every single hour of every day.
 
-The engineering team at Bose is a thriving, passionate, deeply skilled team of professionals from a broad range of disciplines and experiences, who share a common goal—to create products that provide transformative sound experiences.
+We are looking for a stellar & highly ambitious ML engineer as core employees to help build complex AI/NLP models supporting the Verneek AI platform! You'll get to work on fundamental AI research problems, but all grounded on our proprietary AI platform. It is all much more rewarding and influential than working on beating AI benchmarks! :)
 
-Job Description
-THE PROGRAM
+Every day, you'll get to solve very unique, highly complex, and socially impactful problems. This is an early-stage startup, so we'll be moving super-fast and there will be no legacy obstacles on your way to make a significant impact. Whatever you do every hour of every day counts!!
 
-We're looking for students to join our Co-Op Program who are obsessively curious about 'what's next'. You'll get hands on experience with our products and learn from the best of the best in the business. You will immerse yourself into Bose for 6 months and get the opportunity to grow the skills your learned in the classroom with hands on work experience. By the time you end your time with us, you will have been given the opportunity to truly make a real impact in the future of Bose and your career!
+RESPONSIBILITIES
 
-Opportunities don't stop at your day-to-day work. While you're getting an in depth look at your area of expertise, we'll expose you to other areas of the company. Our Co-Ops are given the opportunity to connect with senior leadership across the business to understand different perspectives at Bose. You'll network with other Co-Ops and colleagues to grow your network for the future! 
+Implement, scale, and maintain complex AI/NLP models supporting the Verneek AI platform
+Requirements
+MINIMUM QUALIFICATIONS
 
-Timeframe - January-June 2025
+BSc. degree in Computer Science or related fields
+3+ years of experience with Python
+3+ years hands-on experience developing architectures with machine learning frameworks such as PyTorch
+Demonstrated AI/NLP engineering skillset through having deployed largescale AI/NLP systems to production
+Work authorization in the USA at the time of hire
+Continuing work authorization during employment can be sponsored by Verneek
+PREFERRED QUALIFICATIONS
 
-THE ROLE 
+MSc. degree in Computer Science or related fields
+Experience in Natural Language Understanding, Dialogue Systems, Semantic Parsing, Transfer Learning and learning with limited data
+Experience with building models in the commerce/retail domain
+Working knowledge of Scala
+Benefits
+Stellar medical, dental, vision, disability, and life insurance
 
-The goal of our team is to develop novel AI-powered audio processing algorithms. The twist is that our algorithms must run in real-time, on physical devices, for applications such as voice pickup, hearing augmentation and ones we haven't even thought of yet. As part of the team, you will work with experts in machine learning (ML), digital signal processing (DSP), software engineering and psychoacoustics to prototype and implement new algorithms.
+Daily private Chef lunch, curated to personal diets
 
-Bose has a strong history of combining creative thinking with cutting-edge technology in the audio domain. We are looking for candidates passionate about machine learning and audio to help us shape the next chapter in the future of Bose!
+Transportation Benefits
 
+401K matching contributions
+Flexible PTO
 
-Responsibilities:
-- The majority of your time will be devoted to prototyping, implementing and evaluating ML algorithms, curating and developing internal resources, and regularly presenting your findings. 
-- You will integrate your novel solutions into new and existing systems and platforms to deliver new proofs of concept. 
-- You will be able to contribute to projects, which will be shipped to Bose customers, apply for patents, or submit papers to top-tier AI and signal processing conferences (e.g., NeurIPS, ICASSP, Interspeech, etc.).
- 
-
-Requirements:
-
-- Currently pursuing or recently finished (<6 months) a graduate-level degree in ML, Computer Science, Music Technology or a related field.
-- Expertise in applied audio ML (TensorFlow and/or PyTorch, TFLite and/or ONNX is a plus) and audio DSP (Python, Matlab and/or C/C++).
-- Hands-on experience in at least one of the following research topics: Audio source separation, Speech enhancement, Microphone array signal processing, TinyML, Generative audio modeling.
-- Familiarity with methods for spatial sound synthesis and/or room acoustics simulation/analysis is a plus.
-- Strong communication skills. You will be presenting your work to a large interdisciplinary community.
+Visa/Green Card Sponsorship
+Career growth support through sponsoring learning opportunities and mentorship

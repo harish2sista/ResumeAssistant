@@ -105,4 +105,11 @@ with open('job_description2.txt', 'r') as f:
 new_cl = record.generate_cl(job_description=job_description2)
 print(f'New Cover Letter after adding add_knowledge: \n{new_cl}', flush=True)
 
+record.save('record_1.json')
+
+record.load('record_1.json')
+
+print(record.get_record())
+
+
 

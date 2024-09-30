@@ -1,13 +1,14 @@
 # resumeassistant
+The resume-assistant is your own peronal AI-Assistant that keeps track of a mega resume of 
 
 ## Datasets
 Datasets used for sample candidate resumes: 
 [Resumes-Images-Datasets](https://www.kaggle.com/datasets/youssefkhalil/resumes-images-datasets)
 
 ## Installation 
-To use, install this library using [Git CLI](https://github.com/cli/cli#installation)
+To use, install this library run
 ```bash
-pip install git+https://github.com/harish2sista/resumeassistant.git
+pip install resumeassistant
 ```
 
 ## Example

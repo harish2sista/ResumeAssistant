@@ -7,3 +7,9 @@ Resumes Datasets
 .DS_Store
 gpt_key.json
 Process.ipynb
+.ipynb_checkpoints
+job_description2.txt
+
+
+web_ui.py
+record_1.json
