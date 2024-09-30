@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+resumeassistant/__init__.py
+resumeassistant.egg-info/PKG-INFO
+resumeassistant.egg-info/SOURCES.txt
+resumeassistant.egg-info/dependency_links.txt
+resumeassistant.egg-info/requires.txt
+resumeassistant.egg-info/top_level.txt
+resumeassistant/data/__init__.py
+resumeassistant/data/candidate_record.py
+resumeassistant/operator/__init__.py
+resumeassistant/operator/worker.py

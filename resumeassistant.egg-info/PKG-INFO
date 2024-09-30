@@ -1,3 +1,18 @@
+Metadata-Version: 2.1
+Name: resumeassistant
+Version: 0.0.1
+Summary: Resume Assistant
+Home-page: https://github.com/harish2sista/resumeassistant.git
+Author: Harish Sita
+Author-email: harish2sista@gmail.com
+License: BSD 3-Clause License
+Project-URL: Bug Tracker, https://github.com/harish2sista/resumeassistant.git
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai
+Requires-Dist: pdf2image
+Requires-Dist: poppler
+
 # resumeassistant
 The resume assistant is your own personal AI assistant that builds a mega resume in the background using all your skills, experience, and certifications. 
 
