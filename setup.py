@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 print(find_packages())
 setuptools.setup(
 	name = 'resumeassistant',
-	version = '0.0.1',
+	version = '0.0.2',
 	author = 'Harish Sita',
 	author_email = 'harish2sista@gmail.com',
 	description = 'Resume Assistant',
