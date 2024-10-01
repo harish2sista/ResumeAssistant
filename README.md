@@ -5,15 +5,40 @@ You can build the mega resume by using the resume screening function and answeri
 
 Empowered with the latest GPT-based models, the resume assistant uses the information from your mega resume in the background to build a custom CV and cover letter that fits the job description. 
 
-## Datasets
-Datasets used for sample candidate resumes: 
-[Resumes-Images-Datasets](https://www.kaggle.com/datasets/youssefkhalil/resumes-images-datasets)
 
 ## Installation 
-To use, install this library run
+To install this package you first need to manually install [Poppler](https://poppler.freedesktop.org/), then you can pip install this library using: 
 ```bash
 pip install resumeassistant
 ```
 
+
+## Poppler Installation 
+To easy install Poppler you can use the following steps. 
+
+### MacOS
+```bash
+brew install poppler 
+```
+
+### Ubuntu
+```bash
+sudo apt-get install poppler-utils
+```
+
+### Windows
+Download the latest poppler package from [@oschwartz10612 releases](https://github.com/oschwartz10612/poppler-windows/releases/).
+Extract the package to the desired path on your system. 
+Add the bin/ directory to your system [PATH Variable](https://answers.microsoft.com/en-us/windows/forum/all/adding-path-variable/97300613-20cb-4d85-8d0e-cc9d3549ba23)
+
+Test that all went well by opening cmd and making sure that you can call pdftoppm -h
+
+
+
 ## Example
 An example of implementation is provided in the jupyter notebook [process.ipynb](https://github.com/harish2sista/resumeassistant/blob/main/process.ipynb)
+
+
+## Test Datasets
+Datasets used for sample candidate resumes: 
+[Resumes-Images-Datasets](https://www.kaggle.com/datasets/youssefkhalil/resumes-images-datasets)

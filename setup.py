@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 print(find_packages())
 setuptools.setup(
 	name = 'resumeassistant',
-	version = '0.0.2',
+	version = '0.1.1',
 	author = 'Harish Sita',
 	author_email = 'harish2sista@gmail.com',
 	description = 'Resume Assistant',
@@ -20,5 +20,7 @@ setuptools.setup(
 	},
 	license = 'BSD 3-Clause License',
 	packages = find_packages(),
-	install_requires = ['openai', 'pdf2image', 'poppler']
+	install_requires = [
+						'openai', 'pdf2image', 'python-poppler'
+						]
 	)
